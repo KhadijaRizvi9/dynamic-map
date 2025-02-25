@@ -1,9 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 Interactive Map
 
-Currently, two official plugins are available:
+An interactive map built with **React**, **Leaflet**, and **Tailwind CSS**. This project allows users to visualize location data with clustering and filtering features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-![alt text](image.png)
+## 🚀 Features
+
+- 🗺️ **Clustered Markers**: Group markers based on proximity.
+- 🎨 **Dynamic Styling**: Cluster colors and sizes adjust based on density.
+- 🔍 **Filtering**: Filter locations by category.
+- 📍 **Popup Info**: View details of individual markers.
+- 🌍 **Multiple Base Maps**: Switch between different map styles.
+
+## 🛠️ Technologies Used
+
+- **React.js** ⚛️
+- **Leaflet.js** 🗺️
+- **Tailwind CSS** 🎨
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+\`\`\`bash
+git clone https://github.com/your-username/interactive-map.git
+cd interactive-map
+npm install
+\`\`\`
+## 📸 Screenshot
+
+![Interactive Map Preview](ScreenshotMap.png)
+
+## 🚀 Usage
+
+Start the development server:
+
+\`\`\`bash
+npm start
+\`\`\`
+

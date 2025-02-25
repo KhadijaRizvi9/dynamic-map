@@ -134,7 +134,7 @@ iconCreateFunction={(cluster) => {
   // Define color based on count
   let backgroundColor = "yellow"; // Default: Low density
   if (count >= 3 && count <= 5) backgroundColor = "orange"; // Medium density
-  if (count > 5) backgroundColor = "pink"; // High density
+  if (count > 5) backgroundColor = "green"; // High density
 
   // Define size dynamically based on count
   let size = 35; // Default size
